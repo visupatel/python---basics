@@ -119,6 +119,35 @@ print(type(info2))
 num = range(5)
 print(type(num))
 
+
+# # Binary data types
+# 1. Bytes(immutable)
+b1 = bytes([99,98,32,33,64])     # using bytes() function
+print(b1)
+print(type(b1))
+
+# using b"" to create automatically  byte object for string
+b2 = b"hello"
+print(b2)
+print(type(b2))
+
+
+# 2. Bytearray(Muatable)
+values = bytearray([118,105,115,104,97])
+print(values)
+
+# for string(without encoding it gives error)
+val = bytearray("hello","utf-8")
+print(val)
+
+
+# 3. memoyview
+values = bytearray([118,105,115,104,97])
+view = memoryview(val)
+print(view)
+
+
+
 # Dictionary data type
 info = {"name" : "visha",
         "age" : 21,
@@ -171,6 +200,7 @@ b = 10.5
 c = a + b          # automatically change in float
 print(c)
 print(type(c))
+
 
 
 
