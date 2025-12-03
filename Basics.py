@@ -110,6 +110,43 @@ c = 1 + 2j
 print(type(c))        # complex
 
 
+# Type conversion or explicit casting(need to change manually)
+a = int("2")      # manuaaly change in int
+b = float(4)
+c = str(5)
+
+d = int(True)
+e = float(True)
+f = str(True)
+print(a)
+print(type(a))
+print(b)
+print(type(b))
+print(c)
+print(type(c))
+
+print(d)
+print(type(d))
+print(e)
+print(type(e))
+print(f)
+print(type(f))
+
+
+# Implicit or automatic casting
+a = 10
+b = 10.5
+c = a + b          # automatically change in float
+print(c)
+print(type(c))
+
+a = True           # True = 1
+b = 10.5
+c = a + b          # automatically change in float
+print(c)
+print(type(c))
+
+
 # String data type
 str = "Hello"
 print(type(str))
@@ -141,3 +178,4 @@ print(type(fruits))
 # None type
 a = None
 print(type(a))
+
