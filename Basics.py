@@ -10,8 +10,6 @@ str = "1"\
         
 print(str)         # 123
 
-
-
 # [],{} or () do not need to use '\'.
 
 fruits = ["Banana","Apple",
@@ -50,8 +48,6 @@ a = 10; b = 30; c = 20 ; print(a+b+c)
 
 
 
-
-
 # Variables
 
 # Create
@@ -85,7 +81,6 @@ c= 10 also written as """
 a = b = c = 10
 print(a,b,c)
 
-
 # 2
 """a = 10
 b=20
@@ -108,6 +103,37 @@ print(type(b))       # float
 
 c = 1 + 2j
 print(type(c))        # complex
+
+
+# String data type
+str = "Hello"
+print(type(str))
+
+# Sequence data type
+info1 = ["visha",21, 7.96] 
+print(type(info1))
+
+info2 = ("visha",21, 7.96)
+print(type(info2))
+
+num = range(5)
+print(type(num))
+
+# Dictionary data type
+info = {"name" : "visha",
+        "age" : 21,
+        "cgpa" : 7.96
+}
+print(type(info))
+
+# set data type
+fruits = {"Mango","Apple","Orange"}
+print(type(fruits))
+
+# None type
+a = None
+print(type(a))
+
 
 
 # Type conversion or explicit casting(need to change manually)
@@ -147,35 +173,5 @@ print(c)
 print(type(c))
 
 
-# String data type
-str = "Hello"
-print(type(str))
 
-# Sequence data type
-info1 = ["visha",21, 7.96] 
-print(type(info1))
-
-info2 = ("visha",21, 7.96)
-print(type(info2))
-
-num = range(5)
-print(type(num))
-
-
-# Dictionary data type
-info = {"name" : "visha",
-        "age" : 21,
-        "cgpa" : 7.96
-}
-print(type(info))
-
-
-# set data type
-fruits = {"Mango","Apple","Orange"}
-print(type(fruits))
-
-
-# None type
-a = None
-print(type(a))
 
